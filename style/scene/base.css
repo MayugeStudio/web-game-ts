@@ -1,0 +1,237 @@
+.base-scene {
+    text-align: center;
+    --difficulty-text-background-color: rgb(55, 98, 60);
+    --difficulty-value-text-background-color: rgb(155, 120, 60);
+}
+
+.base-scene-content {
+< < < < < < < HEAD display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0.5em;
+    min-width: 80vw;
+}
+
+.base-scene-content-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.base-scene-content-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.base-scene-content-3 {
+    align-items: center;
+    flex-direction: column;
+= = = = = = = display: flex;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    min-width: 80vw;
+>>> >>> > refs /remotes/ origin / main
+}
+
+.base-scene-header {
+    margin: 0.2em;
+}
+
+<
+<
+<
+<
+<
+<
+<
+HEAD
+.base-scene-stat-menu, .base-scene-equipment-menu {
+    background-color: var(--bg-color2);
+}
+
+.base-scene-stat-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name-text, .health-text, .attack-text, .defense-text, .speed-text,
+.name-value, .health-value, .attack-value, .defense-value, .speed-value {
+    padding: 0.2em;
+}
+
+.stat-menu-header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    padding: 0.2em;
+}
+
+.name-text {
+= = = = = = = . base-scene-stat-menu {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    min-width: 20%;
+    background-color: var(--bg-color2);
+    margin: 0 1em;
+}
+
+    .health-text, .attack-text, .defense-text, .speed-text {
+        margin: 0.5em;
+        min-width: 6rem;
+    }
+
+    .health-value {
+        margin: 0.5em;
+        text-align: center;
+    }
+
+    .attack-value, .defense-value, .speed-value {
+        margin: 0.5em;
+        text-align: right;
+    }
+
+    .health-text {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .attack-text {
+    >>> >>> > refs /remotes/ origin / main grid-row: 2;
+        grid-column: 1;
+    }
+
+< < < < < < < HEAD . name-value {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+    .health-text {
+        grid-row: 3;
+    = = = = = = = . defense-text {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+        .speed-text {
+            grid-row: 4;
+        >>> >>> > refs /remotes/ origin / main grid-column: 1;
+        }
+
+        .health-value {
+        < < < < < < < HEAD = = = = = = = grid-row: 1;
+            grid-column: 2;
+        }
+
+        .attack-value {
+            grid-column: 2;
+            grid-row: 2;
+        }
+
+        .defense-value {
+        >>> >>> > refs /remotes/ origin / main grid-row: 3;
+            grid-column: 2;
+        }
+
+    < < < < < < < HEAD . attack-text {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+        .attack-value {
+            grid-column: 2;
+            grid-row: 4;
+        }
+
+        .defense-text {
+            grid-column: 1;
+            grid-row: 5;
+        }
+
+        .defense-value {
+            grid-column: 2;
+            grid-row: 5;
+        }
+
+        .speed-text {
+            grid-column: 1;
+            grid-row: 6;
+        }
+
+        .speed-value {
+            grid-row: 6;
+        = = = = = = = . speed-value {
+            grid-row: 4;
+        >>> >>> > refs /remotes/ origin / main grid-column: 2;
+        }
+
+            .base-scene-menu {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            < < < < < < < HEAD = = = = = = = margin-top: 1 em;
+            >>> >>> > refs /remotes/ origin / main
+            }
+
+            .menu-button {
+                background-color: var(--difficulty-text-background-color);
+                color: var(--font-color);
+                font-size: inherit;
+            < < < < < < < HEAD = = = = = = = padding: 0.5 em;
+            >>> >>> > refs /remotes/ origin / main
+            }
+
+            .menu-button-1 {
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            .menu-button-2 {
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+            .menu-button-3 {
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            .menu-button-4 {
+                grid-column: 2;
+                grid-row: 2;
+            }
+
+            .menu-button-5 {
+                grid-column: 1 / 3;
+                grid-row: 3;
+            }
+
+        < < < < < < < HEAD . base-scene-equipment-menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+            .equipment-menu-header {
+                grid-column: 1 / 3;
+                grid-row: 1;
+                margin: 0.2em;
+            }
+
+            .weapon-text {
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            .weapon-value {
+                grid-column: 2;
+                grid-row: 2;
+            }
+
+            .armor-head-text {
+                grid-column: 1;
+                grid-row: 3;
+            }
+
+            .armor-head-value {
+                grid-column: 2;
+                grid-row: 3;
+            }
+
+        = = = = = = = >>> >>> > refs /remotes/ origin / main

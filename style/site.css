@@ -1,0 +1,54 @@
+.site-body {
+    background-color: #bfb;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header {
+    background-color: var(--header-bg-color);
+    border: 0.3rem solid var(--header-border-color);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.site-header-logo {
+    background-color: #fff;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    margin: 0.5em;
+    width: 4.5rem;
+}
+
+.site-header-text {
+    color: white;
+    margin: auto;
+}
+
+.site-main {
+    background-color: var(--secondary-color);
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0.3em 0.3em 0.3em 0.3em;
+    color: var(--font-color);
+    margin: 1em 1em 0 1em;
+    min-height: var(--site-main-height);
+}
+
+.site-footer {
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+}
+
+.site-aside {
+    margin: 0.5em;
+}
+
+.site-aside-ul {
+    list-style-type: square;
+}
+
+.site-footer-text {
+    font-size: 1.5em;
+    margin: 0.5em;
+}

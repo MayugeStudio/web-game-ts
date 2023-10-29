@@ -1,0 +1,65 @@
+.title-scene {
+    --button-background-color: hsl(37 82% 56%);
+    --button-background-color-active: hsl(37 82% 36%);
+    --button-background-color-hover: hsl(37 82% 46%);
+    --button-border-color: hsl(10 42% 36%);
+    --input-border-color: hsl(10 42% 36%);
+    --button-border-color-active: hsl(10 42% 16%);
+    --input-border-color-focus: hsl(10 40% 15%);
+    --button-border-color-hover: hsl(10 42% 26%);
+    --font-color-active: hsl(0 0% 85%);
+    --font-color-hover: hsl(0 0% 95%);
+    --text-shadow-color: hsl(10 0% 20%);
+    text-align: center;
+}
+
+.title-scene-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title-scene-content > * {
+    width: calc(5rem * var(--scene-width-multiplier));
+}
+
+.title-scene-background-image {
+    align-items: center;
+    background-image: url("../../assets/image/demo.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    font-size: 4rem;
+    height: calc(3rem * var(--scene-width-multiplier));
+    justify-content: center;
+}
+
+.title-scene-input {
+    background-color: hsl(0, 0%, 95%);
+    border: 0.2rem solid var(--input-border-color);
+    box-sizing: border-box;
+    outline: none;
+    padding: 0.25rem 0;
+    text-align: inherit;
+    width: 100%;
+}
+
+.title-scene-input:focus {
+    border-color: var(--input-border-color-focus);
+}
+
+.title-scene-button {
+    background-color: var(--button-background-color);
+    border: 0.2rem solid var(--button-border-color);
+    box-sizing: border-box;
+    color: var(--font-color);
+    flex-grow: 1;
+    text-shadow: 0.1rem 0.1rem var(--text-shadow-color);
+}
+
+.title-scene-button:active {
+    background-color: var(--button-background-color-active);
+    border-color: var(--button-border-color-active)
+    color: var(--font-color-active);
+}

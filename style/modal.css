@@ -1,0 +1,25 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #fff;
+    left: 50%;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-close {
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.modal-message {
+    padding: 0.5em;
+}

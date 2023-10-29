@@ -1,0 +1,61 @@
+:root {
+    --header-bg-color: hsl(164 44% 25%);
+    --header-border-color: hsl(164 44% 20%)
+    --bg-color: hsl(26, 67%, 76%);
+< < < < < < < HEAD --primary-color: hsl(63 40 % 66 %);
+    --font-color: hsl(0 0% 100%);
+    --primary-color: hsl(63 40% 66%);
+    --secondary-color: hsl(105 20% 54%);
+    --secondary-color: hsl(105 20% 54%);
+= = = = = = = --bg-color: hsl(26, 67 %, 76 %);
+    --bg-color2: hsl(105 20% 40%);
+    --bg-color2: hsl(105 20% 40%);
+    --bg-color3: hsl(105 20% 30%);
+>>> >>> > refs /remotes/ origin / main --spooky-color: hsl(239, 20 %, 54 %);
+    --site-main-height: 70vh;
+    --scene-width-multiplier: 7;
+}
+
+@font-face {
+    font-family: "PixelFont";
+    src: url("../assets/image/PixelMplus12-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "PixelFont", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.animation-button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.normal-font-weight {
+    font-weight: normal;
+}
+
+.font-size-4rem {
+    font-size: 4rem;
+}
+
+.font-size-3-5rem {
+    font-size: 3.5rem;
+}
+
+.font-size-2-5rem {
+    font-size: 2.5rem;
+}
+
+.font-size-2rem {
+    font-size: 2rem;
+}
+
+.font-size-1-5rem {
+    font-size: 1.5rem;
+}
